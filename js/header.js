@@ -7,7 +7,7 @@ ul.style.display = 'none'
 hamburger_menu.addEventListener("click", () => {
   container.classList.toggle("active");
   function myFunction(x) {
-    if (x.matches) { // If media query matches
+    if (x.matches && ! container.classList.contains('active')) { // If media query matches
       links.style.height = '8vh';
     } else if(container.classList.contains('active')) {
       links.style.height = '100vh'
