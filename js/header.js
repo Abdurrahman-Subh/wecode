@@ -17,7 +17,7 @@ hamburger_menu.addEventListener("click", () => {
 }
 else{
   links.style.backgroundColor = 'initial';
- 
+  links.style.display = '12vh'
   ul.style.display= 'none'
   
   
