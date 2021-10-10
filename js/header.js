@@ -19,7 +19,7 @@ else{
   links.style.backgroundColor = 'initial';
   links.style.height = '12vh';
   ul.style.display= 'none'
-  circles.style.display = 'initial'
+  
   
   
   
