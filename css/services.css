@@ -154,3 +154,8 @@
     border-radius: 50%;
   }
 }
+@media screen and (max-width: 568px){
+  .circles{
+    display: none;
+  }
+}
