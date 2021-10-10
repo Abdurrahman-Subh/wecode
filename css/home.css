@@ -425,7 +425,7 @@ section.dark .section-title::after {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    padding-top: 135px;
+    padding-top: 35px;
   }
   .left {
     justify-content: center;
