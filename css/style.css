@@ -480,4 +480,7 @@ footer img {
   .linksM{
     height: 8vh;
   }
-}
+  .mRight ul li{
+  padding-left: 0px;
+    }
+ }
