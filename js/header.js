@@ -17,7 +17,7 @@ hamburger_menu.addEventListener("click", () => {
 }
 else{
   links.style.backgroundColor = 'initial';
-  links.style.height = '12vh';
+  links.style.height = '14vh';
   ul.style.display= 'none';
   
   
