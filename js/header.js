@@ -3,6 +3,8 @@ const container = document.querySelector(".containerM");
 const links = document.querySelector(".linksM");
 const ul = document.querySelector('.linksMUl');
 const circles = document.querySelector('.circles');
+const menuM = document.querySelector('.menuM');
+
 ul.style.display = 'none'
 hamburger_menu.addEventListener("click", () => {
   container.classList.toggle("active");
@@ -19,7 +21,8 @@ else{
   links.style.backgroundColor = 'initial';
   links.style.height = '14vh';
   ul.style.display= 'none';
-  
+   hamburger_menu.style.alignItems = 'center';
+  menuM.style.alignItems = 'center'
   
   
   
