@@ -723,6 +723,7 @@ section.dark .section-title::after {
   display: flex;
   justify-content: center;
   align-items: center;
+   margin-top: 117px;
 }
 .containerP {
   width: 1000px;
@@ -836,3 +837,6 @@ section.dark .section-title::after {
   }
 }
 /*Pricing Cards End*/
+.MainareaS{
+  display: none;
+}
